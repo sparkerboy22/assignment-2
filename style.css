@@ -1,0 +1,113 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  background: rgba(26, 11, 46, 1);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width:1600px ; 
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+
+header{
+   
+    padding: 16px 200px 16px 200px;
+}
+.nav-links{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    gap: 32px;
+}
+.menu-icon{
+    display: none;
+    height: 24px;
+    cursor: pointer;
+}
+.banner{
+    background-image: url(./assets/hero-bg.jpg.png);
+    width: 100%;
+    height: 760px;
+    border: 1px solid red;
+    /* margin: 0 auto; */
+}
+.banner-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.content-img{
+    position: relative;
+    /* width: 220px;
+    height: 220px; */
+    margin-bottom: 20px;
+}
+.bg-circle{
+    width: 100%;
+    height: 100%;
+}
+.mic-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* width: 90px; */
+}
+.badge{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #00FF88;
+    color: #1A0B2E;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-radius:1000px;
+    padding: 8px 16px 8px 16px;
+    box-shadow: 0 0 15px rgba(0, 255, 163, 0.5);
+}
+.techwave-tite{
+    font-size: 72px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    animation: whiteGlow 3s infinite alternate;
+}
+@keyframes whiteGlow {
+    0% {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        opacity: 0.9;
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.3);
+        opacity: 1;
+    }
+}
+.description{
+    color: #FFFFFF;
+    max-width: 500px;
+   /* line-height: 5px; */
+   margin-bottom: 30px;
+}
