@@ -209,15 +209,15 @@ header{
     gap: 25px;
  }
  .episode-card{
-    border: 1px solid rgba(255, 255, 255, 0.05) ;
+    border: 1px solid rgba(255, 255, 255, 0.301) ;
     border-radius: 24px;
-    overflow: hidden;
+    /* overflow: hidden; */
     text-align: left;
  }
  .video-container{
-    position: relative;
+    /* position: relative; */
     padding-bottom: 24px;
-    overflow: hidden;
+    /* overflow: hidden; */
  }
 .episode-info h3{
     font-size: 1.5rem;
@@ -235,6 +235,45 @@ header{
     color: #00FF88;
     font-weight: bold;
     
+}
+.host-section{
+    color: #FFFFFF;
+    padding: 80px 10%;
+}
+.host-title{
+      font-size: 3rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.host-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.host-content{
+     border: 1px solid rgba(255, 255, 255, 0.301);
+     border-radius: 24px;
+    display: flex;
+    align-items: center ;
+    gap: 24px;
+    padding: 40px;
+}
+.host-image{
+    position: relative;
+    max-width: 450px;
+}
+.host-name{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.host-bio{
+    color: grey;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.host-socials {
+    display: flex;
+    gap: 20px;
 }
 @media screen and (max-width:992px){
     .nav-links,.nav-sub-links{
