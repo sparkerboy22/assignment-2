@@ -385,6 +385,9 @@ footer{
         flex-direction: column;
         text-align: center;
        }
+       .host-socials{
+        justify-content: center;
+       }
        .host-image{
         max-width: 300px;
        }
@@ -398,7 +401,7 @@ footer{
     .card {
       background: linear-gradient(145deg, #2a145d, #1a0c3c);
       border-radius: 20px;
-      padding: 30px;
+      padding: 10px;
       box-shadow: 0 20px 40px rgba(0,0,0,0.35);
     }
 
@@ -437,6 +440,24 @@ footer{
     .menu-icon{
         display: block;
     }
+    .banner{
+        background-image: url(./assets/Image.png);
+        background-position: center;
+    }
+    .bg-circle{
+        width: 200px;
+        height: 200px;
+    }
+    .mic-img{
+        width: 50px;
+        
+    }
+    .badge{
+        position: absolute;
+        top: 15px;
+        right: -20px;
+    }
+   
     header{
       padding: 16px 20px;
     }
@@ -514,13 +535,11 @@ footer{
     .host-content{
         padding: 20px;
     }
+    .host-socials{
+        justify-content: center;
+    }
    
     .footer-info{
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        text-align: center;
-        
         gap: 15px;
     }
 }
